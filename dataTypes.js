@@ -14,3 +14,8 @@ let myObj = {
 const xyz = function(){
     console.log(0);
 }
+
+let someoneObj = myObj // reference
+
+console.log(someoneObj.age);
+xyz();
